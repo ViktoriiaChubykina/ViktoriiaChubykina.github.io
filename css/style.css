@@ -709,4 +709,7 @@ h2.title {
     .footer .contact {
         font-size: 11px;
     }
+    .bonus .bonus_text{
+        width: 90%;
+    }
 }
