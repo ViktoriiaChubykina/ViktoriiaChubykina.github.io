@@ -1,0 +1,712 @@
+* {
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: 
+    url(../fonts/Roboto-Black.woff),
+    url(../fonts/Roboto-Bold.woff),
+    url(../fonts/Roboto-Light.woff),
+    url(../fonts/Roboto-Medium.woff),
+    url(../fonts/Roboto-Regular.woff),
+    url(../fonts/Roboto-Thin.woff);
+}
+
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.promo {
+    height: 800px;
+    background: url(../img/bg/main_bg.png) center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+
+.logo .logo-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo-text {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+}
+
+h1 {
+    margin-top: 53px;
+}
+
+.title {
+    color: #f9bf3b;
+    font-size: 41px;
+    font-weight: 900;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+h2.title {
+    margin-top: 20px;
+}
+
+.simple .title_big {
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.promo .promo-text {
+    padding: 0 13px;
+    margin-top: 23px;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.promo .promo-text span {
+    color: #f9bf3b;
+    font-weight: 700;
+}
+
+.promo .promo_btn, .bonus .bonus_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 73px;
+    width: 313px;
+    height: 72px;
+    box-shadow: 0px 2px 9px 1px #505050;
+    border: none;
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
+.more {
+    margin-top: 73px;
+}
+
+.more .more_text {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+
+.waiting {
+    min-height: 604px;
+    background-color: #efefef;
+    padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header, .finish .finish_header, .meeting .meeting_header {
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.finish .finish_header {
+    color: #ffffff;
+}
+
+.waiting .waiting_divider, .finish .finish_divider {
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.waiting .waiting_subheader, .meeting .meeting_text {
+    margin-top: 17px;
+    color: #4a4a4a;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    width: 339px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 33px;
+    color: #4a4a4a;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+}
+
+.optimization {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_header {
+    margin-left: 391px;
+    color: #299CBD;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.optimization .optimization_text {
+    margin-top: 25px;
+    margin-left: 391px;
+    color: #4A4A4A;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px; /* 158.824% */
+}
+
+.optimization .optimization_text span {
+    color: #4A4A4A;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top: 48px;
+    left: -240px;
+    z-index: -1;
+}
+
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/bg/second_bg.png') center center/cover no-repeat;
+}
+
+.finish .finish_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 118px;
+    height: 118px;
+    background-color: #B4E2FF;
+    border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+    margin-top: 25px;
+    text-align: center;
+    color: #EFEFEF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.bonus {
+    min-height: 629px;
+    background-color: #efefef;
+    padding: 88px 0;
+}
+
+.bonus .gift {
+    display: block;
+    margin: 0 auto;
+}
+
+.bonus .bonus_text {
+    margin-top: 45px;
+    color: #252525;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+}
+
+.meeting_block {
+    min-height: 512px;
+    background-color: #ffffff;
+    padding: 89px 0 53px 0;
+}
+
+.meeting .meeting_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.meeting .meeting_header {
+    margin-top: 36px;
+    text-align: center;
+}
+
+.meeting .meeting_subheader {
+    margin-top: 30px;
+    color: #299CBD;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.meeting .meeting_text {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: 169px;
+    background-color: #1A1A1A;
+    padding: 57px 0 69px 0;
+}
+
+.footer .footer_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration-line: underline;
+}
+
+.footer .footer_item {
+    margin: 0 3px;
+}
+
+.footer .contact {
+    color: #888;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+}
+
+@media(max-width: 1200px)
+{
+    .container{
+        max-width: 820px;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .simple .title_big{
+        font-size: 48px;
+    }
+    .promo .promo-text{
+        font-size: 18px;
+    }
+    .waiting .waiting_header, .finish .finish_header, .meeting .meeting_header{
+        font-size: 24px;
+    }
+    .waiting .waiting_subheader, .meeting .meeting_text{
+        font-size: 18px;
+    }
+    .waiting .waiting_wrapper .waiting_item{
+        width: 248px;
+    }
+    .waiting .waiting_wrapper .waiting_item .waiting_descr{
+        font-size: 15px;
+    }
+    .optimization .optimization_header{
+        font-size: 24px;
+        margin-left: 319px;
+    }
+    .optimization{
+        padding: 46px 0  0;
+    }
+    .optimization .optimization_img{
+        margin-top: 30px;
+        width: 70%;
+        left: -126px;
+    }
+    .optimization .optimization_text{
+        font-size: 14px;
+        margin-left: 319px;
+        line-height: 24px;
+    }
+    .finish .finish_wrapper .finish_item .finish_round{
+        width: 104px;
+        height: 104px;
+    }
+    .finish .finish_wrapper .finish_item{
+        width: 163px;
+    }
+    .finish .finish_wrapper .finish_item .finish_descr{
+        font-size: 14px;
+    }
+    .bonus .gift{
+        width: 100px;
+        height: auto;
+    }
+    .bonus .bonus_text{
+        font-size: 24px;
+    }
+    .promo .promo_btn, .bonus .bonus_btn{
+        width: 268px;
+        height: 68px;
+        font-size: 17px;
+        margin-top: 58px;
+    }
+    .bonus {
+        min-height: auto;
+        padding: 68px 0;
+    }
+    
+    .meeting_block{
+        padding: 50px 0 40px;
+    }
+    .footer{
+        height: auto;
+        padding: 20px;
+    }
+    .footer .footer_link{
+        font-size: 15px;
+    }
+    .footer .contact{
+        font-size: 15px;
+    }
+}
+@media(max-width: 992px)
+{
+    .container{
+        max-width: 650px;
+    }
+    .title{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .simple .title_big{
+        font-size: 34px;
+    }
+    .promo{
+        height: 720px;
+    }
+
+    .promo .promo-text{
+        font-size: 14px;
+    }
+    .more .more_text{
+        font-size: 13px;
+        margin-top: 40px;
+    }
+    .waiting{
+        padding: 40px 0 0 0;
+        min-height: 494px;
+    }
+    .waiting .waiting_header, .finish .finish_header, .meeting .meeting_header{
+        font-size: 20px;
+    }
+    .waiting .waiting_subheader, .meeting .meeting_text{
+        font-size: 15px;
+    }
+    .waiting .waiting_wrapper .waiting_item{
+        width: 194px;
+    }
+    .waiting .waiting_wrapper .waiting_item .waiting_descr{
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    .optimization .optimization_header{
+        font-size: 18px;
+        margin-left: 220px;
+    }
+    .optimization{
+        padding: 44px 0 44px 0;
+        min-height: auto;
+    }
+    .optimization .optimization_img{
+        width: 60%;
+    }
+    .optimization .optimization_text{
+        font-size: 12px;
+        margin-left: 220px;
+        margin-top: 16px;
+        line-height: 21px;
+    }
+    .finish{
+        padding: 50px 0;
+        min-height: 381px;
+    }
+    .finish .finish_wrapper .finish_item .finish_round{
+        width: 87px;
+        height: 87px;
+    }
+    .finish .finish_wrapper .finish_item{
+        width: 130px;
+    }
+    .finish .finish_wrapper .finish_item .finish_descr{
+        font-size: 12px;
+    }
+    .bonus{
+        min-height: 450px;
+        padding: 40px 0;
+    }
+    .bonus .gift{
+        width: 78px;
+        height: auto;
+    }
+    .bonus .bonus_text{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .promo .promo_btn, .bonus .bonus_btn{
+        width: 230px;
+        height: 60px;
+        font-size: 13px;
+        margin-top: 60px;
+    }
+    .meeting .meeting_img{
+        width: 230px;
+        height: auto;
+    }
+    .meeting .meeting_subheader{
+        font-size: 30px;
+    }
+    .meeting_block{
+        min-height: 430px;
+        padding: 60px 0;
+    }
+    .footer{
+        height: auto;
+        padding: 15px;
+    }
+    .footer .footer_link{
+        font-size: 10px;
+    }
+    .footer .contact{
+        font-size: 10px;
+    }
+}
+@media(max-width: 768px)
+{
+    .container{
+        max-width: 450px;
+    }
+    .logo .logo-img{
+        width: 70px;
+        height: auto;
+    }
+    .logo .logo-text{
+        font-size: 13px;
+    }
+    .title{
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    h2.title{
+        margin-top: 12px;
+    }
+    .simple .title_big{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .promo{
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .promo .promo-text{
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .more .more_text{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .waiting{
+        padding: 40px 0 40px 0;
+        min-height: auto;
+    }
+    .waiting .waiting_header, .finish .finish_header, .meeting .meeting_header{
+        font-size: 14px;
+    }
+    .waiting .waiting_subheader, .meeting .meeting_text{
+        font-size: 15px;
+    }
+    .waiting .waiting_wrapper{
+        display: block;
+    }
+    .waiting .waiting_wrapper .waiting_item{
+        margin: 0 auto;
+        width: 270px;
+        margin-top: 30px;
+    }
+    .waiting .waiting_wrapper .waiting_item .waiting_descr{
+        font-size: 12px;
+        margin-top: 12px;
+    }
+    .optimization .optimization_header{
+        text-align: center;
+        font-size: 18px;
+        margin-left: 0;
+    }
+    .optimization{
+        padding: 44px 0;
+        min-height: auto;
+    }
+    .optimization .optimization_img{
+        width: 0;;
+    }
+    .optimization .optimization_text{
+        text-align: center;
+        font-size: 15px;
+        margin-left: 0;
+        margin-top: 16px;
+        line-height: 21px;
+    }
+    .finish{
+        padding: 50px 0 10px;
+        min-height: auto;
+    }
+    .finish .finish_wrapper{
+        display: block;
+        margin: 0 auto;
+    }
+    .finish .finish_wrapper .finish_item .finish_round{
+        width: 130px;
+        height: 130px;
+    }
+    .finish .finish_wrapper .finish_item{
+        margin: 15px 0 40px;
+        width: auto;
+    }
+    .finish .finish_wrapper .finish_item .finish_descr{
+        text-align: center;
+        width: 300px;
+        font-size: 15px;
+        margin: 15px auto 0;
+
+    }
+    .bonus{
+        min-height: auto;
+        padding: 40px 0;
+    }
+    .bonus .gift{
+        width: 78px;
+        height: auto;
+    }
+    .bonus .bonus_text{
+        width: 380px;
+        margin: 45px auto;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .promo .promo_btn, .bonus .bonus_btn{
+        width: 170px;
+        height: 40px;
+        font-size: 10px;
+        margin-top: 50px;
+    }
+    .meeting .meeting_img{
+        width: 230px;
+        height: auto;
+    }
+    .meeting .meeting_subheader{
+        font-size: 30px;
+    }
+    .meeting_block{
+        min-height: 430px;
+        padding: 60px 0;
+    }
+    .footer{
+        height: auto;
+        padding: 15px;
+    }
+    .footer .footer_link{
+        font-size: 10px;
+    }
+    .footer .contact{
+        font-size: 10px;
+    }
+}
+@media(max-width: 576px){
+    .container{
+        width: 90%;
+    }
+    .promo{
+        padding-bottom: 15px;
+    }
+    .promo .promo_btn, .bonus .bonus_btn {
+        font-size: 11px;
+    }
+    .title{
+        margin-top: 40px;
+    }
+    .waiting .waiting_wrapper .waiting_item .waiting_descr{
+        font-size: 14px;
+    }
+    .optimization{
+        margin: 0 15px;
+        height: 100%;
+        
+    }
+    .optimization_header{
+        display: block;
+        margin: 0 auto;
+    }
+    .optimization .optimization_text{
+        display: block;
+        margin: 15px auto;
+    }
+    .footer .footer_link {
+        font-size: 11px;
+    }
+    .footer .contact {
+        font-size: 11px;
+    }
+}
